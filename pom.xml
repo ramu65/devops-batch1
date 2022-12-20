@@ -13,6 +13,7 @@
 		<sonar.host.url>http://18.181.164.81:9000/</sonar.host.url>
 		<maven.compiler.source>1.8</maven.compiler.source>
    		<maven.compiler.target>1.8</maven.compiler.target>
+		<failOnMissingWebXml>false</failOnMissingWebXml> 
 	</properties>
 	<dependencies>
 
@@ -37,20 +38,7 @@
 		    <url>http://54.178.74.89:8081/repository/sample-releases/</url>
 		</repository>
   	</distributionManagement>
-	<plugins>
-	      <plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-war-plugin</artifactId>
-		<version>2.2</version>
-	      </plugin>
-
-	      <plugin>
-		<groupId>org.codehaus.mojo</groupId>
-		<artifactId>tomcat-maven-plugin</artifactId>
-		<version>1.0-beta-1</version>
-	      </plugin>
-
-	 </plugins>
+	
 	
 	<pluginRepositories>
 	    <pluginRepository>    
