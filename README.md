@@ -1,2 +1,2 @@
 # devops-batch1
-# AWS Devops and Azure Dervops
+# AWS Devops and Azure Devops
